@@ -1,0 +1,70 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+/*=============== VARIABLES CSS ===============*/
+:root {
+  /*========== Colors ==========*/
+  --first-color: hsl(30, 16%, 50%);
+  --text-color: #fff;
+  --text-color-black: hsl(30, 8%, 15%);
+  --body-color: hsl(30, 100%, 98%);
+
+  /*========== Font and typography ==========*/
+  --body-font: 'Poppins', sans-serif;
+  --h3-font-size: 1rem;
+  --small-font-size: .813rem;
+  --smaller-font-size: .75rem;
+}
+
+/* Responsive typography */
+@media screen and (min-width: 1024px) {
+  :root {
+    --h3-font-size: 1.125rem;
+    --small-font-size: .875rem;
+    --smaller-font-size: .813rem;
+  }
+}
+
+/*=============== BASE ===============*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: var(--body-font);
+  background-color: var(--body-color);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*=============== GALLERY ===============*/
+
+
+/* Swiper class */
+
+
+/* Active thumbnail */
+
+
+/* Rotate thumbnail */
+
+
+/* Sliding numbers */
+
+
+/* Arrow buttons */
+
+
+/* Other swiper settings */
+
+
+/*=============== BREAKPOINTS ===============*/
+/* For small devices */
+
+
+/* For large devices */
